@@ -57,15 +57,16 @@ console.log(duplicateOnly(arr));
 // If the word is present, console it else console "the search word was not found"
 // let arr5 = ["the", "way", "x", 4];
 
-let arr5 = ["the", "way", "x", 4];
-function findWord(arr5){
-    if(arr5.find == "way"){
-        console.log("Way");
-    }else{
-        console.log("The search word was not found.");
-    }
+let arr5 = ["the", "way", "x",4];
+if (arr5[1]==["way"]){
+    console.log("way")
 }
-console.log(findWord(arr5));
+else{
+    (arr5[1]!=["way"])
+        console.log("The search word was not found!")
+}
+
+
 
 
 // Question 6
