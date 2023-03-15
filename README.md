@@ -1,2 +1,1 @@
-# Js-Arrays
 # Arrays-Js
