@@ -73,7 +73,7 @@ console.log(findWord(arr5));
 // let word = "sevink"
 
 let word = "sevink"
- let r=(word)=>{
+ let arr7=(word)=>{
 return word .split("").sort().join("");
  };
- console.log(r("sevink"))
+ console.log(arr7("sevink"))
