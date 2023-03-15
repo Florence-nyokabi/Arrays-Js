@@ -72,8 +72,8 @@ console.log(findWord(arr5));
 // Write a JS script to sort the following string
 // let word = "sevink"
 
-let word = "serink";
-function sortString(word){
-    return (word.sort);
-}
-console.log(sortString(word));
+let word = "sevink"
+ let r=(word)=>{
+return word .split("").sort().join("");
+ };
+ console.log(r("sevink"))
